@@ -1,0 +1,240 @@
+{
+    "locales": {
+        "en": {
+            "title": "Skills",
+            "title_long_prefix": "Explore",
+            "title_long": "My **Skill Set**"
+        },
+        "es": {
+            "title": "Habilidades",
+            "title_long_prefix": "Explora",
+            "title_long": "Mis **Habilidades**"
+        }
+    },
+    "articles": [
+        {
+            "id": "capabilities",
+            "component": "ArticleCards",
+            "config": {},
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-code",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Full-Stack** Development",
+                            "text": "Experienced in building and maintaining full-stack applications."
+                        },
+                        "es": {
+                            "title": "Desarrollo **Full-Stack**",
+                            "text": "Experiencia en la creación y mantenimiento de aplicaciones full-stack."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-lock",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Cybersecurity**",
+                            "text": "Passionate about security, specializing in ethical hacking and secure coding."
+                        },
+                        "es": {
+                            "title": "**Ciberseguridad**",
+                            "text": "Apasionado por la seguridad, especializado en hacking ético y desarrollo seguro."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-react",
+                        "faColors": {
+                            "bg": "#61DAFB",
+                            "fill": "#111"
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**React & Node.js**",
+                            "text": "Expert in modern web development using ReactJS and .NET."
+                        },
+                        "es": {
+                            "title": "**React & Node.js**",
+                            "text": "Experto en desarrollo web moderno con ReactJS y .NET."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-microsoft",
+                        "faColors": {
+                            "bg": "#0078D4",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**.NET & C#**",
+                            "text": "Currently learning and developing applications with ASP.NET Core. Also building applications and data servers."
+
+                        },
+                        "es": {
+                            "title": "**.NET & C#**",
+                            "text": "Actualmente aprendiendo y desarrollando aplicaciones con ASP.NET Core. También, generando aplicaciones y servidores de datos."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "backend_programming",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Backend"
+                }
+            },
+            "items": [
+                {
+                    "icon": { "img": null, "fa": "fa-brands fa-node-js", "faColors": { "bg": "#339933", "fill": "#EEE" }},
+                    "value": 100,
+                    "dates": { "start": "2019" },
+                    "locales": { "en": { "title": "Node.js" } }
+                },
+                {
+                    "icon": { "img": null, "fa": "fa-brands fa-microsoft", "faColors": { "bg": "#0078D4", "fill": "#EEE" }},
+                    "value": 100,
+                    "dates": { "start": "2019" },
+                    "locales": { "en": { "title": ".NET and C#" }, "es": { "title": ".NET y C#" } }
+                },
+                {
+                    "icon": { "img": null, "fa": "fa-solid fa-database", "faColors": { "bg": "#4479A1", "fill": "#EEE" }},
+                    "value": 80,
+                    "dates": { "start": "2019" },
+                    "locales": { "en": { "title": "MySQL" } }
+                },
+                {
+                    "icon": { "img": null, "fa": "fa-solid fa-database", "faColors": { "bg": "#4479A1", "fill": "#EEE" }},
+                    "value": 100,
+                    "dates": { "start": "2022" },
+                    "locales": { "en": { "title": "PostgresSQL" } }
+                },
+                {
+                    "icon": { "img": null, "fa": "fa-solid fa-database", "faColors": { "bg": "#4479A1", "fill": "#EEE" }},
+                    "value": 100,
+                    "dates": { "start": "2022" },
+                    "locales": { "en": { "title": "MongoDB" } }
+                },
+                {
+                    "icon": { "img": null, "fa": "fa-brands fa-docker", "faColors": { "bg": "#4479A1", "fill": "#EEE" }},
+                    "value": 60,
+                    "dates": { "start": "2022" },
+                    "locales": { "en": { "title": "Docker" } }
+                },
+                {
+                    "icon": { "img": null, "fa": "fa-brands fa-git", "faColors": { "bg": "#F05032", "fill": "#111" }},
+                    "value": 55,
+                    "dates": { "start": "2019" },
+                    "locales": { "en": { "title": "Git" } }
+                },
+                {
+                    "icon": { "img": null, "fa": "fa-brands fa-c", "faColors": { "bg": "#F05032", "fill": "#111" }},
+                    "value": 60,
+                    "dates": { "start": "2023" },
+                    "locales": { "en": { "title": "C and C++" }, "es": { "title": "C y C++" } }
+                },
+                {
+                    "icon": { "img": null, "fa": "fa-brands fa-python", "faColors": { "bg": "#F05032", "fill": "#111" }},
+                    "value": 80,
+                    "dates": { "start": "2023" },
+                    "locales": { "en": { "title": "Python" }, "es": { "title": "Python" } }
+                }
+            ]
+        },
+        {
+            "id": "front_end_programming",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": { "title": "Frontend Development" },
+                "es": { "title": "Desarrollo Frontend" }
+            },
+            "items": [
+                {
+                    "icon": { "img": null, "fa": "fa-brands fa-html5", "faColors": { "bg": "#E34F26", "fill": "#EEE" }},
+                    "value": 100,
+                    "dates": { "start": "2023" },
+                    "locales": { "en": { "title": "HTML5" } }
+                },
+                {
+                    "icon": { "img": null, "fa": "fa-brands fa-css3", "faColors": { "bg": "#1572B6", "fill": "#EEE" }},
+                    "value": 80,
+                    "dates": { "start": "2023" },
+                    "locales": { "en": { "title": "CSS3" } }
+                },
+                {
+                    "icon": { "img": null, "fa": "fa-brands fa-js", "faColors": { "bg": "#F7DF1E", "fill": "#111" }},
+                    "value": 80,
+                    "dates": { "start": "2023" },
+                    "locales": { "en": { "title": "JavaScript ES6+" } }
+                },
+                {
+                    "icon": { "img": null, "fa": "fa-brands fa-react", "faColors": { "bg": "#61DAFB", "fill": "#111" }},
+                    "value": 100,
+                    "dates": { "start": "2024" },
+                    "locales": { "en": { "title": "ReactJS" } }
+                }
+            ]
+        },
+        {
+            "id": "languages",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": { "title": "Languages" },
+                "es": { "title": "Idiomas" }
+            },
+            "items": [
+                {
+                    "icon": { "img": "images/flags/es.png", "fa": null, "faColors": { "bg": null, "fill": null }},
+                    "value": null,
+                    "locales": {
+                        "en": { "title": "Spanish", "info": "Native speaker." },
+                        "es": { "title": "Español", "info": "Hablante nativo." }
+                    }
+                },
+                {
+                    "icon": { "img": "images/flags/en.png", "fa": null, "faColors": { "bg": null, "fill": null }},
+                    "value": null,
+                    "locales": {
+                        "en": { "title": "English", "info": "Fluent in spoken and written communication." },
+                        "es": { "title": "Inglés", "info": "Fluido en comunicación oral y escrita." }
+                    }
+                },
+                {
+                    "icon": { "img": "images/flags/it.png", "fa": null, "faColors": { "bg": null, "fill": null }},
+                    "value": null,
+                    "locales": {
+                        "en": { "title": "Italian", "info": "Mid-level understanding." },
+                        "es": { "title": "Italiano", "info": "Comprensión media." }
+                    }
+                }
+            ]
+        }
+    ]
+}

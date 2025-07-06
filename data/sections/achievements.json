@@ -1,0 +1,77 @@
+{
+    "locales": {
+        "en": {
+            "title": "Achievements",
+            "title_menu": "Certifications",
+            "title_long_prefix": "Here are my",
+            "title_long": "Career **Certifications**"
+        },
+        "es": {
+            "title": "Logros",
+            "title_menu": "Certificaciones",
+            "title_long_prefix": "Aquí están mis",
+            "title_long": "**Certificaciones**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "certifications",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {
+                "en": { "title": "Certifications & Challenges" },
+                "es": { "title": "Certificaciones y Retos" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-user-secret",
+                        "faColors": {"bg": "#326CE5", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "2024",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://tryhackme.com/" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "TryHackMe Certifications",
+                            "text": "Completed various cybersecurity training modules, including **network security, forensics, and penetration testing.**"
+                        },
+                        "es": {
+                            "text": "Completados varios módulos de formación en ciberseguridad, incluyendo **seguridad de redes, análisis forense y pruebas de penetración.**"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-flag-checkered",
+                        "faColors": {"bg": "#FFD700", "fill": "#111"}
+                    },
+                    "dates": {
+                        "start": "2024",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://atenea.incibe.es/" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Atenea Cybersecurity Challenges",
+                            "text": "Participated in multiple challenges on **Atenea (INCIBE), achieving a total score of 500 points.**"
+                        },
+                        "es": {
+                            "text": "Participación en múltiples retos en **Atenea (INCIBE), logrando un puntaje total de 500 puntos.**"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

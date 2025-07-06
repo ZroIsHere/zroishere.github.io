@@ -1,0 +1,109 @@
+{
+    "locales": {
+        "en": {
+            "title": "Portfolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Portfolio**"
+        },
+        "es": {
+            "title": "Portafolio",
+            "title_long_prefix": "Explora",
+            "title_long": "Mi **Portafolio**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "categories": [
+                {
+                    "id": "apps",
+                    "locales": {
+                        "en": { "singular": "App", "plural": "Apps" },
+                        "es": { "singular": "App", "plural": "Apps" }
+                    }
+                },
+                {
+                    "id": "websites",
+                    "locales": {
+                        "en": { "singular": "Website", "plural": "Web" },
+                        "es": { "singular": "Sitio web", "plural": "Web" }
+                    }
+                }
+            ],
+
+            "items": [
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/Falla_Plaza_Rodrigo.png",
+                        "fa": "",
+                        "faColors": { "bg": null, "fill": null }
+                    },
+
+                    "links": [
+                        { "faIcon": "fa-solid fa-link", "href": "https://fallaplazarodrigo.es" }
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": ["images/pictures/falla_web_1.png", "images/pictures/falla_web_2.png"]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Falla Plaza Rodrigo Website",
+                            "text": "A website developed for the cultural association Falla Plaza Rodrigo, designed to provide information about events, news, and the history of the organization.",
+                            "tags": ["React", "Node.js", "Firebase", "Web Development"]
+                        },
+                        "es": {
+                            "title": "Sitio Web Falla Plaza Rodrigo",
+                            "text": "Un sitio web desarrollado para la Asociación Cultural Falla Plaza Rodrigo, diseñado para proporcionar información sobre eventos, noticias e historia de la organización.",
+                            "tags": ["React", "Node.js", "Firebase", "Desarrollo Web"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "images/pictures/Falla_Plaza_Rodrigo.png",
+                        "fa": "",
+                        "faColors": { "bg": null, "fill": null }
+                    },
+
+                    "links": [
+                        { "faIcon": "fa-brands fa-apple", "href": "https://apps.apple.com/us/app/falla-plaza-rodrigo/id6737492055" },
+                        { "faIcon": "fa-brands fa-google-play", "href": "https://play.google.com/store/apps/" }
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "9:16",
+                            "images": ["images/pictures/falla_app_1.png", "images/pictures/falla_app_2.png"]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Falla Plaza Rodrigo App",
+                            "text": "A mobile app complementing the website, providing members with notifications, event schedules, and exclusive content.",
+                            "tags": ["Ionic", "Capacitor", "Firebase", "Mobile Development"]
+                        },
+                        "es": {
+                            "title": "App de la Falla Plaza Rodrigo",
+                            "text": "Una aplicación móvil complementaria al sitio web, que brinda a los miembros notificaciones, horarios de eventos y contenido exclusivo.",
+                            "tags": ["Ionic", "Capacitor", "Firebase", "Desarrollo Móvil"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

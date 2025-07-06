@@ -1,0 +1,57 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "This is my",
+            "title_long": "**Educational** Background"
+        },
+        "es": {
+            "title": "Educación",
+            "title_long_prefix": "Esta es mi",
+            "title_long": "**Formación** Educativa"
+        }
+    },
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/cifp-politecnico.svg",
+                        "fa": "",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "dates": {
+                        "start": "09/09/2023",
+                        "end": "05/21/2025"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Intermediate Vocational Degree in Automotive Electromechanics",
+                            "info": "C.I.F.P Politécnico",
+                            "text": "Completed a degree focused on the diagnosis, repair, and maintenance of vehicles. Gained hands-on experience with automotive electrical, electronic, and mechanical systems.",
+                            "tags": ["Electromechanics", "Mechanics", "Electronics", "Automotive"]
+                        },
+                        "es": {
+                            "title": "Grado Medio en Electromecánica de Vehículos Automóviles",
+                            "info": "C.I.F.P Politénico",
+                            "text": "Finalizado grado centrado en el diagnóstico, reparación y mantenimiento de vehículos. Adquirí experiencia práctica en sistemas eléctricos, electrónicos y mecánicos de automóviles.",
+                            "tags": [
+                                "Electromecánica",
+                                "Mecánica",
+                                "Electrónica",
+                                "Automoción"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

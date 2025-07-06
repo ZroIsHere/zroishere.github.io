@@ -1,0 +1,75 @@
+{
+    "locales": {
+        "en": {
+            "title": "Contact",
+            "title_long_prefix": "Don't hesitate to",
+            "title_long": "**Contact** Me"
+        },
+
+        "es": {
+            "title": "Contacto",
+            "title_long_prefix": "No dudes en",
+            "title_long": "**Contácta**me"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_form",
+            "component": "ArticleContactForm",
+            "config": {},
+            "locales": {
+                "en": {"title": "Send me a **message**"},
+                "es": {"title": "Envíame un **mensaje**"}
+            },
+
+            "items": null
+        },
+
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Or if you **prefer**..."},
+                "es": {"title": "O si **prefieres**..."}
+            },
+
+            "items": [
+                {
+                    "value": "zroishere@gmail.com",
+                    "links": [
+                        {"href": "mailto:zroishere@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "E-mail"},
+                        "es": {"title": "Correo"}
+                    }
+                },
+
+                {
+                    "value": "@zroisdead",
+                    "links": [
+                        {"href": "https://www.instagram.com/zroisdead/"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-instagram",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Instagram"},
+                        "es": {"title": "Instagram"}
+                    }
+                }
+            ]
+        }
+    ]
+}

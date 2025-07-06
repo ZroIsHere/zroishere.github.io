@@ -1,0 +1,199 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Emilio David!**"
+        },
+        "es": {
+            "title": "¡Saludos!",
+            "title_menu": "Sobre mí",
+            "title_long_prefix": "Hola...",
+            "title_long": "Soy **Emilio David!**"
+        }
+    },
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "items": [
+                {
+                    "value": "Cartagena – Murcia, Spain",
+                    "links": [
+                        {
+                            "href": null
+                        }
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    }
+                },
+                {
+                    "value": "zroishere@gmail.com",
+                    "links": [
+                        {
+                            "href": "mailto:zroishere@gmail.com"
+                        }
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    }
+                },
+                {
+                    "value": "@ZroIsHere",
+                    "links": [
+                        {
+                            "href": "https://github.com/ZroIsHere"
+                        }
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "**A little bit** about me..."
+                },
+                "es": {
+                    "title": "**Un poco** sobre mí..."
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/svg/logo.svg",
+                        "fa": null,
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "text": "<p>I’m a full-stack cross-platform application developer with experience in **ReactJS, .NET, PostgreSQL, Docker**... Passionate about cybersecurity and technology, I completed a vocational degree in Automotive Electromechanics while working on several web and mobile projects. I love combining design and functionality to create high-performance applications.</p>"
+                        },
+                        "es": {
+                            "text": "<p>Soy un desarrollador de aplicaciones multiplataforma full-stack con experiencia en **ReactJS, .NET, PostgresSQL, Docker**... Apasionado por la ciberseguridad y la tecnología, completé un grado medio de Electromecánica de Vehículos Automóviles mientras trabajo en varios proyectos web y móviles. Me encanta combinar diseño y funcionalidad para crear aplicaciones de alto rendimiento.</p>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {
+                    "title": "Personal **interests**"
+                },
+                "es": {
+                    "title": "Intereses **personales**"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-volleyball",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Volleyball",
+                            "info": "Sports for pleasure. You never get to play as much as you'd like."
+
+                        },
+                        "es": {
+                            "title": "Volleyball",
+                            "info": "Deporte por gusto. Nunca se juega tanto como uno quisiera."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-code",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Programming",
+                            "info": "I love coding and creating new projects."
+                        },
+                        "es": {
+                            "title": "Programación",
+                            "info": "Me encanta programar y crear nuevos proyectos."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-gamepad",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Gaming",
+                            "info": "Enjoying games like Pokémon, Zelda, and Soulsborne titles."
+                        },
+                        "es": {
+                            "title": "Videojuegos",
+                            "info": "Disfrutando juegos como Pokémon, Zelda y Soulsborne."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-music",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Music",
+                            "info": "Listening to System of a Down, T+Pazolite, Beach Weather, Arctic Monkeys, and Maneskin."
+                        },
+                        "es": {
+                            "title": "Música",
+                            "info": "Escuchando a System of a Down, T+Pazolite, Beach Weather, Arctic Monkeys, y Maneskin."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

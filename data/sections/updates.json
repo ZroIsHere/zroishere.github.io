@@ -1,0 +1,104 @@
+{
+    "locales": {
+        "en": {
+            "title": "Life recently",
+            "title_menu": "Updates",
+            "title_long_prefix": "Take a look at my",
+            "title_long": "Recent **Updates**"
+        },
+        "es": {
+            "title": "Vida Reciente",
+            "title_menu": "Actualizaciones",
+            "title_long_prefix": "Consulta mis",
+            "title_long": "Actualizaciones **Recientes**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "fun_facts",
+            "component": "ArticleServices",
+            "config": {},
+            "items": [
+                {
+                    "icon": { "img": null, "fa": "fa-solid fa-tablet-screen-button", "faColors": null },
+                    "locales": {
+                        "en": { "title": "01", "info": "App developed" },
+                        "es": { "title": "01", "info": "Aplicación desarrollada" }
+                    }
+                },
+                {
+                    "icon": { "img": null, "fa": "fa-solid fa-globe", "faColors": null },
+                    "locales": {
+                        "en": { "title": "07", "info": "Countries visited" },
+                        "es": { "title": "07", "info": "Países visitados" }
+                    }
+                },
+                {
+                    "icon": { "img": null, "fa": "fa-solid fa-coffee", "faColors": null },
+                    "locales": {
+                        "en": { "title": "20,000", "info": "Coffees consumed" },
+                        "es": { "title": "20,000", "info": "Cafés consumidos" }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "updates",
+            "component": "ArticleThread",
+            "config": {},
+            "locales": {
+                "en": { "title": "Recent **Milestones**" },
+                "es": { "title": "Hitos **Recientes**" }
+            },
+
+            "items": [
+                {
+                    "dates": { "start": "03/25/2024", "end": null },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Started developing **Falla Plaza Rodrigo's website**",
+                            "text": "Began working on the official website for Falla Plaza Rodrigo, focusing on event management, news updates, and interactive features for the community."
+                        },
+                        "es": {
+                            "title": "Inicio del desarrollo de la **web de la Falla Plaza Rodrigo**",
+                            "text": "Comencé a desarrollar la web oficial de la Falla Plaza Rodrigo, centrada en la gestión de eventos, noticias y funcionalidades interactivas para la comunidad."
+                        }
+                    }
+                },
+                {
+                    "dates": { "start": "11/29/2024", "end": null },
+                    "links": [
+                        { "string": "see_website", "href": "https://fallaplazarodrigo.es" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Launched the **Falla Plaza Rodrigo website and apps**",
+                            "text": "Successfully deployed and presented the official website and mobile applications, offering a new digital experience for members and visitors."
+                        },
+                        "es": {
+                            "title": "Publicación y presentación de la **web y apps de la Falla Plaza Rodrigo**",
+                            "text": "Lancé y presenté oficialmente la web y aplicaciones móviles, ofreciendo una nueva experiencia digital para los miembros y visitantes."
+                        }
+                    }
+                },
+                {
+                    "dates": { "start": "02/01/2025", "end": null },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Started working on **CookGPT**",
+                            "text": "Began developing CookGPT, an AI-powered recipe web app designed to provide personalized meal suggestions based on user preferences."
+                        },
+                        "es": {
+                            "title": "Inicio del desarrollo de **CookGPT**",
+                            "text": "Comencé a desarrollar CookGPT, una aplicación web de recetas con IA diseñada para ofrecer sugerencias de comidas personalizadas según las preferencias del usuario."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

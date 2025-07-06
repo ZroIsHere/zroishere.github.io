@@ -1,0 +1,192 @@
+{
+    "locales": {
+        "en": {
+            "title": "Experience",
+            "title_long_prefix": "Summary of my",
+            "title_long": "**Work** Experience"
+        },
+        "es": {
+            "title": "Experiencia",
+            "title_long_prefix": "Resumen de mi",
+            "title_long": "Experiencia **Laboral**"
+        }
+    },
+    "articles": [
+        {
+            "id": "work",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/zro.png",
+                        "fa": "",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "dates": {
+                        "start": "02/02/2021",
+                        "end": "Present"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Cross-Platform Applications with ReactJS",
+                            "info": "Personal or non-public projects",
+                            "text": "Personal projects developed with ReactJS, including web and mobile applications. Focused on creating interactive and efficient user interfaces.",
+                            "tags": [
+                                "JavaScript",
+                                "ReactJS",
+                                ".NET",
+                                "C#",
+                                "SQL"
+                            ]
+                        },
+                        "es": {
+                            "title": "Aplicaciones multiplataforma con ReactJS",
+                            "info": "Proyectos personales o de origen no público",
+                            "text": "Proyectos personales desarrollados con ReactJS, incluyendo aplicaciones web y móviles. Enfocado en la creación de interfaces de usuario interactivas y eficientes.",
+                            "tags": [
+                                "JavaScript",
+                                "ReactJS",
+                                ".NET",
+                                "C#",
+                                "SQL"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/blacksgarage.png",
+                        "fa": "",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "dates": {
+                        "start": "06/22/2025",
+                        "end": "07/02/2025"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Web and Mobile Application Development with ReactJS",
+                            "info": "Freelance",
+                            "text": "Developed a web-based alert and reporting system for vehicle status and internal company functions. Also created a specialized web panel for editing and managing the site.",
+                            "tags": [
+                                "JavaScript",
+                                "ReactJS",
+                                ".NET",
+                                "C#",
+                                "SQL"
+                            ]
+                        },
+                        "es": {
+                            "title": "Desarrollo de web y aplicaciones móviles con ReactJS",
+                            "info": "Freelance",
+                            "text": "Desarrollo de un sistema de alertas e informes del estado de sus vehículos en web y funciones internas de la empresa. También, desarrollo de un panel en la web especializado para modificar la misma.",
+                            "tags": [
+                                "JavaScript",
+                                "ReactJS",
+                                ".NET",
+                                "C#",
+                                "SQL"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/falla-plaza-rodrigo.png",
+                        "fa": "",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "dates": {
+                        "start": "03/25/2024",
+                        "end": "04/30/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Web and Mobile Application Development for Falla Plaza Rodrigo",
+                            "info": "Freelance",
+                            "text": "Developed the official website and mobile applications for Falla Plaza Rodrigo, focusing on event management, news updates, and interactive features for the community.",
+                            "tags": [
+                                "JavaScript",
+                                "ReactJS",
+                                ".NET",
+                                "C#",
+                                "SQL",
+                                "Firebase",
+                                "Android",
+                                "iOS",
+                                "Docker"
+                            ]
+                        },
+                        "es": {
+                            "title": "Desarrollo de web y aplicaciones móviles para la Falla Plaza Rodrigo",
+                            "info": "Freelance",
+                            "text": "Desarrollo de la web oficial y aplicaciones móviles de la Falla Plaza Rodrigo, centrado en la gestión de eventos, noticias y funcionalidades interactivas para la comunidad.",
+                            "tags": [
+                                "JavaScript",
+                                "ReactJS",
+                                ".NET",
+                                "C#",
+                                "SQL",
+                                "Firebase",
+                                "Android",
+                                "iOS",
+                                "Docker"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/PriorAtelier.svg",
+                        "fa": "",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "dates": {
+                        "start": "02/25/2024",
+                        "end": "03/15/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Web Development",
+                            "info": "Freelance",
+                            "text": "Developed a website with a reservation, services, and product management system. Also created a specialized admin panel for managing the site.",
+                            "tags": [
+                                "JavaScript",
+                                "ReactJS",
+                                ".NET",
+                                "C#",
+                                "SQL"
+                            ]
+                        },
+                        "es": {
+                            "title": "Desarrollo de web",
+                            "info": "Freelance",
+                            "text": "Desarrollo de una web con sistema de gestión de reservas, servicios y productos. También, desarrollo de un panel especializado para la gestión de la web.",
+                            "tags": [
+                                "JavaScript",
+                                "ReactJS",
+                                ".NET",
+                                "C#",
+                                "SQL"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "version": "1.0.0",
+    "animatedCursorEnabled": true,
+    "fullScreenButtonEnabled": false,
+
+    "preloader": {
+        "enabled": true,
+        "title": "Emilio David <b>Portfolio</b>",
+        "subtitle": "Multiplatform developer"
+    },
+    "profile": {
+        "name": "Emilio David",
+        "stylizedName": "<strong>Emilio **David**</strong>",
+        "logoUrl": "images/svg/logo.svg",
+        "profilePictureUrl": "images/pictures/avatar.jpg",
+        "locales": {
+            "en": {"role": "Multiplatform developer"},
+            "es": {"role": "Desarrollador multiplataforma"}
+        }
+    },
+    "status": {
+        "visible": true,
+        "available": true,
+        "locales": {
+            "en": {"message": "Available for freelance!"},
+            "es": {"message": "¡Disponible para freelance!"}
+        }
+    },
+    "supportedThemes": [
+        {
+            "id": "dark",
+            "default": true,
+            "icon": "fa-solid fa-moon"
+        },
+        {
+            "id": "light",
+            "default": false,
+            "icon": "fa-solid fa-sun"
+        }
+    ],
+    "supportedLanguages": [
+        {
+            "name": "English",
+            "id": "en",
+            "flagUrl": "images/flags/en.png",
+            "default": true
+        },
+        {
+            "name": "Español",
+            "id": "es",
+            "flagUrl": "images/flags/es.png"
+        }
+    ],
+    "emailjs": {
+        "publicKey": "XAeYI2pWsCGd6SWuY",
+        "serviceId": "service_c2zjbsm",
+        "templateId": "template_b28uuws"
+    }
+}
