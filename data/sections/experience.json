@@ -81,7 +81,11 @@
                                 "ReactJS",
                                 ".NET",
                                 "C#",
-                                "SQL"
+                                "SQL",
+                                "Firebase",
+                                "Android",
+                                "iOS",
+                                "Docker"
                             ]
                         },
                         "es": {
@@ -93,7 +97,11 @@
                                 "ReactJS",
                                 ".NET",
                                 "C#",
-                                "SQL"
+                                "SQL",
+                                "Firebase",
+                                "Android",
+                                "iOS",
+                                "Docker"
                             ]
                         }
                     }
